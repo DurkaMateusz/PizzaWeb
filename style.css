@@ -45,6 +45,7 @@ body {
 
 .menu ul li a:hover {
     color: #FFD77F;
+    transition: all 0.15s ease;
 }
 
 .contact-info {
@@ -53,6 +54,48 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+}
+
+.slider-box {
+    height: 200px;
+    background-color: black;
+    display: flex;
+}
+
+.slider-half-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    font-family: cursive, Geneva;
+    padding: 20px;
+}
+
+.button-section {
+    margin-top: 20px;
+}
+
+.order-button {
+    color: #7FD7FF;
+    border: 2px solid #7FD7FF;
+}
+
+.book-button {
+    color: #FFD77F;
+    border: 2px solid #FFD77F;
+    background-color: #936C02;
+}
+
+.order-button:hover, .book-button:hover {
+    background-color: #333;
+    transition: all 0.15s ease;
+}
+
+.pizza-img {
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 
